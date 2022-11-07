@@ -14,3 +14,47 @@
     background-size: cover;
     background-position: center;
 }
+.showcase .navbar-top{
+    width: 100%;
+    display: flex;
+    padding: 0 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2940;
+    top: 0;
+    left: 0;
+}
+.showcase .left{
+    display: flex;
+    list-style: none;
+}
+.showcase .lelf li a{
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #95A2BB;
+    transition: all 0.5s ease;
+}
+.showcase .left li a:hover{
+    color: #55ba53;
+}
+.showcase .left li:first-child{
+    font-weight: 700;
+    border-right: 1px solid #536daf;
+}
+.showcase .right{
+    display: flex;
+    list-style: none;
+}
+.showcase .right li a{
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #95A2BB;
+    transition: all 0.5s ease;
+}
+.showcase .right li a:hover{
+    color: #55ba53;
+}
