@@ -29,12 +29,12 @@
     display: flex;
     list-style: none;
 }
-.showcase .lelf li a{
+.showcase .left li a{
     display: inline-block;
-    padding: 5px 15px;
     font-size: 13px;
     text-decoration: none;
     color: #95A2BB;
+    padding: 5px 15px;
     transition: all 0.5s ease;
 }
 .showcase .left li a:hover{
@@ -56,5 +56,43 @@
     transition: all 0.5s ease;
 }
 .showcase .right li a:hover{
+    color: #55ba53;
+}
+/*-----Bottom Navbar*/
+.showcase .navbar-bottom{
+    width: 100%;
+    background: #cfcfcf;
+    padding: 25px 95px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+.showcase .navbar-bottom .stand-left{
+    color: #55ba53;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.showcase .navbar-bottom .stand-left:hover{
+    color: #0a2940;
+}
+.showcase .navbar-bottom .menu-right{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.showcase .navbar-bottom .menu-right a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: #1a1b1e;
+    transition: all 0.5s ease;
+}
+.showcase .navbar-bottom .menu-right a:hover{
     color: #55ba53;
 }
