@@ -175,5 +175,11 @@
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
-
 }
+.showcase .showcase-content .btn-left{
+    background: linear-gradient(to right, #0a3609 , #55ba53);
+}
+.showcase .showcase-content .btn-right{
+    background: linear-gradient(to right,#55ba53, #0a3609);
+}
+
