@@ -249,3 +249,68 @@
 #services .items .item:hover h3{
     color: #f4f4f4;
 }
+
+/* Services Section Bottom */
+#goal{
+    display: flex;
+    padding-top: 20px;
+}
+#goal div{
+    flex: 1;
+}
+#goal .goal-img{
+    display: inline-block;
+    position: relative;
+    width: 600px;
+    height: 380px;
+    overflow: hidden;
+}
+#goal .goal-img img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+#goal .goal-text{
+    margin: 0 40px;
+}
+#goal .goal-text a{
+    color: #f4f4f4;
+    background: #55ba53;
+    text-decoration: none;
+    border: 1px solid #55ba53;
+    border-radius: 25px;
+    padding: 3px 10px;
+    transition: 0.5s;
+}
+#goal .goal-text a:hover{
+    color: #55ba53;
+    background: #0a2940
+}
+#goal .goal-text h2{
+    margin: 20px 0;
+    color: #0a2940;
+}
+#goal .goal-text .contents{
+    display: flex;
+}
+#goal .goal-text .contents .content{
+    flex: none;
+    padding: 10px;
+
+}
+#goal .goal-text .contents .content h3{
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #55ba53;
+}
+#goal .goal-text .contents .content p{
+    color: #1a1b1e;
+}
+#goal .goal-text .contents .content i{
+    color: #55ba53;
+    padding: 3px;
+    background: #0a2940;
+    align-self: flex-start;
+    border-radius: 5px;
+    margin-right: 5px;
+}
