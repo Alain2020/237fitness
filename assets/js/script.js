@@ -9,6 +9,15 @@ window.onscroll = () =>{
 
 $(document).ready(function(){
 
+    $(window).scroll(function(){
+        //Navbar-bottom scrolling
+        if(this.scrolly > 5){
+            $('.navbar-bottom').addClass("sticky");
+        }else{
+            $('.navbar-bottom').removeClass("sticky");
+        }
+    })
+
      //owl owlCarousel
      $('.owl-carousel').owlCarousel({
         margin: 5,

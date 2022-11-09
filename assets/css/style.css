@@ -117,8 +117,16 @@
     text-align: center;
     margin: 0 auto;
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: space-between;
+}
+.navbar-bottom.sticky{
+    padding: 15px 95px;
+    background: #fff;
+    border-bottom: 1px solid #0a2940;
+    color: #0a2940;
+    top: 0;
+    z-index: 999;
 }
 .showcase .navbar-bottom .stand-left{
     color: #55ba53;
@@ -126,6 +134,9 @@
     font-weight: 700;
     text-decoration: none;
     transition: all 0.5s ease;
+}
+.showcase .navbar-bottom.sticky .stand-left{
+       color: #0a2940;
 }
 .showcase .navbar-bottom .stand-left:hover{
     color: #0a2940;
@@ -135,6 +146,9 @@
     list-style: none;
     font-size: 14px;
     font-weight: 600;
+}
+.showcase .navbar-bottom.sticky .menu-right li:last-child{
+    display: none;
 }
 .showcase .navbar-bottom .menu-right a{
     text-decoration: none;
@@ -346,11 +360,11 @@
     border: 2px solid #95A2BB;
     object-fit: cover;
 }
-.owl.dots{
+.owl-dots{
     text-align: center;
     margin-top: 20px;
 }
-.owl.dot{
+.owl-dot{
     height: 13px;
     width: 13px;
     margin: 0 5px;
@@ -358,11 +372,11 @@
     border-radius: 50%;
     border: 2px solid #55ba53 !important;
 }
-.owl.dot.active{
+.owl-dot.active{
     width: 35px;
     border-radius: 14px;
 }
-.owl.dot.owl.dot.active,
-.owl.dot:hover{
+.owl-dot.active,
+.owl-dot:hover{
     background: #55ba53 !important;
 }
