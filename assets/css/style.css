@@ -380,3 +380,25 @@
 .owl-dot:hover{
     background: #55ba53 !important;
 }
+
+/* Teams Section Styling*/
+#teams h3{
+    color: #0a2940;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+#teams h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0a2940;
+    margin-bottom: 20px;
+}
+#teams h2 span{
+    font-weight: 500;
+}
+#teams p{
+    color: #0a2940;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
