@@ -381,7 +381,7 @@
     background: #55ba53 !important;
 }
 
-/* Teams Section Styling*/
+/* Teams Section Styling */
 #teams h3{
     color: #0a2940;
     font-size: 14px;
@@ -402,10 +402,10 @@
     line-height: 1.6;
     margin-bottom: 100px;
 }
-#teams .wrapper .card-itemes{
+#teams .wrapper .card-items{
     display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
+    margin-top: -50px;
+    justify-content: space-evenly;
     overflow: hidden;
 }
 #teams .wrapper .card{
@@ -418,8 +418,9 @@
     overflow: hidden;
     width: 280px;
     z-index: 1;
+    transition: all 0.5s ease;
 }
-#teams .wrapper .card .card-header{
+#teams .wrapper .card:hover{
     background: #0a2940;
     transform: scale(1.05);
     cursor: pointer;
@@ -429,12 +430,49 @@
     width: 180px;
     height: 180px;
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 30px auto;
     transform: translateY(40px);
 }
 #teams .wrapper .card .card-header img{
-    width: 100;
-    height: auto;
-    
+    width: 100%;
+    height: auto;  
 }
+#team .wrapper .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 200px;
+}
+#teams .wrapper .card h3{
+    font-size: 16px;
+    color: #95A2BB;
+    padding-top: 30px;
+}
+#teams .wrapper .card .card-body h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #55ba53;
+    margin-top: 0px;
+}
+#teams .wrapper .card .card-body ul{
+    display: flex;
+    list-style: none;
+    padding-top: 50px;
+}
+#teams .wrapper .card .card-body ul li{
+    padding: 5px;
+    margin: 0 7px;
+    border: 1px solid #95A2BB;
+    border-radius: 50%;
+    background: #0a2940;
+    color: #55ba53;
+    /*transition: all 0.5s ease;*/
+}
+#teams .wrapper .card .card-body ul li i:hover{
+    background: #55ba53;
+    color: #0a2940;
+}
+
