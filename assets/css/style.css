@@ -402,3 +402,39 @@
     line-height: 1.6;
     margin-bottom: 100px;
 }
+#teams .wrapper .card-itemes{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#teams .wrapper .card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 280px;
+    z-index: 1;
+}
+#teams .wrapper .card .card-header{
+    background: #0a2940;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#teams .wrapper .card .card-header{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 30px auto;
+    transform: translateY(40px);
+}
+#teams .wrapper .card .card-header img{
+    width: 100;
+    height: auto;
+    
+}
