@@ -538,6 +538,10 @@
     width: 370px;
     overflow: hidden;
     z-index: 1;
+    transition: all 0.5s ease;
+}
+#blog .wrapper .card:hover{
+    transform: scale(1.05);
 }
 #blog .wrapper .card .card-header img{
     width: 100%;
