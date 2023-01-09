@@ -550,4 +550,26 @@
     display: block;
     margin-bottom: 10px;
 }
+#blog .wrapper .card .card-body .tag{
+    background: #ccc;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#blog .wrapper .card .card-body .tag-yellow{
+    background-color: yellow;
+}
+#blog .wrapper .card .card-body .tag-purple{
+    background-color: #5c76bf;
+}
+
+#blog .wrapper .card .card-body .tag-pink{
+    background-color: #cd5b9f;
+}
+
+
 
