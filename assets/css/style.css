@@ -571,5 +571,23 @@
     background-color: #cd5b9f;
 }
 
+#blog .wrapper .card .card-body h4{
+    margin: 10px 30px;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: #0a2940;
+}
+#blog .wrapper .card .card-body .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 10px 2px 30px;
+    border-top: 1px solid #536daf;
+    padding: 5px 0;
+}
+
+
 
 
