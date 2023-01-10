@@ -587,6 +587,16 @@
     border-top: 1px solid #536daf;
     padding: 5px 0;
 }
+#blog .wrapper .card .card-body .footer small{
+    color: #1a1b1e;
+    font-weight: 600;
+}
+#blog .wrapper .card .card-body .footer a{
+    padding: 5px 10px;
+    background: #55ba53;
+    border-radius: 4px;
+    color: #0a2940;
+}
 
 
 
