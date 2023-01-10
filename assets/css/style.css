@@ -598,6 +598,48 @@
     color: #0a2940;
 }
 
+/* Contact Srction Styling */
+#contact h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#contact p{
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+#contact .wrapper form{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 0 auto;
+}
+#contact .wrapper form input{
+    padding: 8px;
+    border: #ddd 1px solid;
+    outline: none;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+#contact .wrapper form .button{
+    padding: 8px;
+    margin-bottom: 100px;
+    background: #0a2940;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#contact .wrapper form .button:hover{
+    background: #1a1b1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+
 
 
 
