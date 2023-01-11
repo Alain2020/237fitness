@@ -638,6 +638,15 @@
     color: #fff;
     cursor: pointer;
 }
+/* Footer section Styling */
+.footer-bottom{
+    background: #1a1b1e;
+    color: #536daf;
+}
+.footer-bottom p{
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 
