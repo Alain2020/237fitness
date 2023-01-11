@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*  Smooth Scroll */
+html{
+    scroll-behavior: smooth;
+}
+
 /*Utility Classes*/
 
 .text-secondary{
@@ -646,6 +651,30 @@
 .footer-bottom p{
     font-size: 14px;
     font-weight: 600;
+}
+/* Scroll up Styling */
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    border: 1px solid #fff;
+    background: #0a2940;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+}
+.scroll-up-btn.show{
+    opacity: 1;
+    pointer-events: auto;
+    bottom: 30px;
 }
 
 
