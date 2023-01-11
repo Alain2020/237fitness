@@ -16,7 +16,19 @@ $(document).ready(function(){
         }else{
             $('.navbar-bottom').removeClass("sticky");
         }
-    })
+
+        //Scrolling Buttom Btn
+        if(thi.scrollY > 500){
+            $('.navbar-bottom').addClass("sticky");
+        }else{
+            $('.navbar-bottom').removeClass("show"); 
+        }
+    });
+
+    //slide up script
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop:0});
+    });
 
      //owl owlCarousel
      $('.owl-carousel').owlCarousel({
