@@ -670,6 +670,7 @@ html{
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
+    transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
     opacity: 1;
