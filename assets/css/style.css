@@ -447,7 +447,7 @@ html{
     width: 100%;
     height: auto;  
 }
-#team .wrapper .card-body{
+#teams .wrapper .card-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -471,7 +471,7 @@ html{
     list-style: none;
     padding-top: 50px;
 }
-#teams .wrapper .card .card-body ul li{
+#teams .wrapper .card .card-body ul li i{
     padding: 5px;
     margin: 0 7px;
     border: 1px solid #95A2BB;
@@ -506,11 +506,11 @@ html{
 #blog .wrapper .blog-info{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 #blog .wrapper .blog-info h2{
-    font-size: 40px;
+    font-size: 50px;
     color: #95A2BB;
     font-weight: 600;
 }
