@@ -569,8 +569,8 @@ html{
     text-transform: uppercase;
     cursor: pointer;
 }
-#blog .wrapper .card .card-body .tag-yellow{
-    background-color: yellow;
+#blog .wrapper .card .card-body .tag-black{
+    background-color: black;
 }
 #blog .wrapper .card .card-body .tag-purple{
     background-color: #5c76bf;
