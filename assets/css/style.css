@@ -498,7 +498,7 @@ html{
     width: 4%;
     background: #95A2BB;
 }
-#blog .wrapper .header h4{
+#blog .wrapper .header h3{
     color: #95A2BB;
     padding-left: 15px;
     text-transform: uppercase;
@@ -554,7 +554,7 @@ html{
 }
 #blog .wrapper .card .card-header img{
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     display: block;
     margin-bottom: 10px;
