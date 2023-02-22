@@ -782,64 +782,23 @@
        flex-direction: column;
        justify-content: center;
     }
-    .class .classMenu .team1 .teamDetails{
-        padding-bottom: 7px;
-    }    
-    .class .classMenu .team1 .teamDetails .name {
-        padding: 5px 15px 0 15px;
+    .class .classMenu .team1 {
+        width: 65%;
+        margin-bottom: 20px;
     }
-    .class .classMenu .team1 .teamDetails .name .nameDetails h4 {
-        font-size: 1.2rem;
-    }
-    .class .classMenu .team1 .teamDetails .name .nameDetails p {
-        font-size: 1rem;
-    }
-    .class .classMenu .team1 .teamDetails .name .nameDetails p span {
-        font-size: 1rem;
-    }
-    .class .classMenu .team1 .teamDetails .name .num h5 {
-        font-size: 0.8rem;
-        width: 3.2rem;
-        height: 3.2rem;
-        line-height: 3.2rem;
-    }
-    .class .classMenu .team1 .pro{
-        padding: 15px 15px 30px 15px;
-    }
-    .class .classMenu .team1 .pro p {
-        font-size: 1rem;
-    }
-
     .contact {
-        padding: 6rem;
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .contact .form h2 {
-        font-size: 2rem;
-        padding-bottom: 7px;
+        font-size: 2.5rem;
     }
-    .contact .form .submit input, .contact .form .submit textarea {
-        padding: 12px;
-        margin: 10px 0;
+    .contact .map {
+        width: 60%;
     }
-    .contact .form .submit input::placeholder{
-        font-size: 1rem;
-    }
-    .contact .form .submit textarea::placeholder{
-        font-size: 1rem;
-    }
-    .contact .form .submit a {
-        padding: 13px 0;
-        font-size: 1rem;
-        margin: 10px 0;
-    }
-    .contact .map h2 {
-        font-size: 1rem;
-        padding-bottom: 20px;
-    }
-    .contact .map p {
-        font-size: 1rem;
-        padding-bottom: 20px;
-    }
+
 
     .footer {
         padding: 6rem;
