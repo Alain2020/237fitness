@@ -757,9 +757,10 @@
     .details .two {
         padding-left: 0;
         border-left: 0;
-        border-top: 5px solid #666262;
+        border-top: 1px solid #666262;
         width: 70%;
         margin-top: 1.7rem;
+        padding-top: 1.7rem;
         
     }
     .details .two h3 {
