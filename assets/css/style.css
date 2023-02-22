@@ -369,6 +369,7 @@
     height: 5rem;
     line-height: 5rem;
     text-align: center;
+    padding-right: 3rem;
     border-radius: 50%;
 }
 
@@ -440,11 +441,9 @@
     font-size: 1.1rem;
     margin: 13 0;
 }
-
 .contact .map {
     width: 45%;
 }
-
 .contact .map h2 {
     font-size: 2rem;
     color: #212529;
@@ -814,5 +813,58 @@
 
 @media screen and (max-width: 496px) {
     
+    .main p {
+        margin-bottom: 0.8rem;
+    }
+    .main h2 {
+        font-size: 1.8rem;
+    }
+    .main .btn {
+      margin-top: 0.7rem;
+    }
+    .details {
+        padding: 4rem 1rem;
+    }
+    .details .one {
+        width: 100%;
+    }
+    .details .two {
+        width: 100%;  
+    }
+    .trainer {
+        padding: 4rem 1rem;
+    }
+    .trainer .about {
+        width: 100%;
+    }
+    .trainer .people {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trainer .people .tram1 {
+        width: 100%;
+        margin-bottom: 20%;
+    } 
+    .class {
+        padding: 4rem 1rem;
+    }
+    .contact {
+        padding: 4rem 1rem;
+    }
+    .contact .form{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .contact .map {
+        width: 100%;
+    }
+    .footer {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
