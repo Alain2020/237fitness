@@ -6,6 +6,10 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nav {
     position: fixed;
     display: flex;
