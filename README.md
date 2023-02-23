@@ -1,4 +1,4 @@
-<h1>Personal Portfolio</h1>
+<h1>Personal Fitness Studio</h1>
 
 The brief was to develop a static front end project  using HTML , CSS and JavaScript programming language. This website is created for educational purposes.
 
@@ -9,21 +9,22 @@ I am are here to promote other companies advertise their products and also to br
 
 <h3>The business goals of this website are:</h3>
 
-To inform users  and companies about Marketing .
+It to give the users the body they want, To be physically fit,
+ Making fitness fun,Exercise until the body obeys. and more
 
-The customer goals of this website are:
+<h3>The customer goals of this website are:</h3>
 
-To find out more information about news, finance and government projects.
-To describe how they can do their taxes declarations.
-To inform users on educational seminars.
+We have decades of experience helping people transform their bodies – 
+and we know that eating habits have a huge impact on how quickly
+ you’ll achieve your transformation goals..
 
 <h3>Ideal users of this website:</h3>
 
-Companies and Private Users
+ Private Users and Sport clubs
 
 <h3>These users are looking for:</h3>
 
-Current Information.
+Is a Fitness Training Studio For the people that want to Turn Fat into a FIT!.
 
 <h3>Technologies Used:</h3>
 
@@ -40,7 +41,7 @@ The project used GitHub to host my code that was created and pushed from GitPod.
 <h3>Google Fonts</h3>
 Google Fonts was used to style the website fonts.
 
-<h3>Font Awesome</h3>
-I used the font & icon toolkit Font Awesome in the company section, artist Modals and footer links to define elements by a visual means.
+<h3>Boxicons</h3>
+I used the boxicons toolkit in the narbar section, team section, classes section, contact section and footer links to define elements by a visual means.
 
 Features Left to Implement:
