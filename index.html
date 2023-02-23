@@ -7,7 +7,7 @@
     <title>237-Fitness</title>
     <!----* icon Boxicons *---->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -46,7 +46,7 @@
 
 <!----Details-->
 <div class="details">
-    <div class="one">
+    <div class="one" data-aos="fade-right">
           <h3>Are you new at Solino Fitness?</h3>
           <h6>Your membership is up to 1 month FREE (4999.99 FCFA per month)</h6>
           <p>Solino-Fitness usually comes to those who are too busy to be looking for it.<br>
@@ -55,7 +55,7 @@
         Then Turn Fat into a FIT!</p>
             <a href="#">Become a member today</a>
     </div>
-    <div class="two">
+    <div class="two" data-aos="fade-right">
         <h3>Working Hours</h3>
         <br>
         <h5>Saturday - Sunday</h5>
@@ -71,8 +71,8 @@
 
 <div id="about" class="trainer">
     <div class="about">
-        <h2>Hello, We are Solino-Fitness Studio</h2>
-        <p>The moment you step into a our Fitness Lab, personal training gym,
+        <h2 data-aos="zoom-in">Hello, We are Solino-Fitness Studio</h2>
+        <p data-aos="zoom-in">The moment you step into a our Fitness Lab, personal training gym,
             you’ll recognise that we have a different approach. Here,
             your personal training sessions and workouts are private
            held in a fully-equipped pod with everything you need immediately to hand.
@@ -87,7 +87,7 @@
            to achieve whatever kind of body transformation you’re looking for.
            </p>             
     </div>
-    <div class="people">
+    <div class="people" data-aos="zoom-in">
         <div class="team1">
               <div class="img">
                 <img src="./assets/images/fitness40.jpg">
@@ -104,7 +104,7 @@
               </div>
         </div>
 
-        <div class="team1">
+        <div class="team1" data-aos="fade-right">
             <div class="img">
               <img src="./assets/images/fitness41.jpg">
             </div>
@@ -123,12 +123,12 @@
     </div>
 
     <div id="classes" class="class">
-        <p class="paragraph">Get A Perfect Body</p>
-        <h2 class="h2">Our Training Classes</h2>
+        <p class="paragraph" data-aos="fade-right">Get A Perfect Body</p>
+        <h2 class="h2" data-aos="flip-up">Our Training Classes</h2>
         <div class="classMenu">
-            <div class="team1">
+            <div class="team1" data-aos="fade-right">
                 <div class="img">
-                  <img src="./assets/images/fitness10.jpg">
+                  <img src="./assets/images/fitness7.jpg">
                 </div>
                 <div class="teamDetails">
                   <div class="name">
@@ -147,7 +147,7 @@
                 </div>
           </div>
 
-          <div class="team1">
+          <div class="team1" data-aos="fade-right">
             <div class="img">
               <img src="./assets/images/fitness47.jpg">
             </div>
@@ -168,7 +168,7 @@
             </div>
       </div>
 
-      <div class="team1">
+      <div class="team1" data-aos="fade-right">
         <div class="img">
           <img src="./assets/images/fitness46.jpg">
         </div>
@@ -193,15 +193,15 @@
 
     <div id="contact" class="contact">
         <div class="form">
-            <h2>Feel free to ask any question</h2>
-            <div class="submit">
+            <h2 data-aos="fade-up">Feel free to ask any question</h2>
+            <div class="submit" data-aos="fade-up">
                 <input type="text" name="" placeholder="Name">
                 <input type="email" name="" placeholder="Email">
                 <textarea placeholder="Message"></textarea>
                 <a href="#">Send Message</a>
             </div>
         </div>
-        <div class="map">
+        <div class="map" data-aos="fade-up">
            <h2>Where you can find us</h2>
            <p><i class='bx bx-current-location'></i>Commercial Ave, Bamenda, Cameroon</p>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.
@@ -211,10 +211,19 @@
             width="1290" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" data-aos="fade-right">
         <p>Copyright @ 2023 Solino Fitness Co.<br>4SolinoDigital</p>
         <p><i class='bx bx-envelope'></i>solinofit@solinodigital.com<br><i class='bx bx-phone'></i>000-000-0000 </p>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 2000,
+      });
+    </script>
+
  <script src="assets/js/script.js"></script>   
 </body>
 </html>
