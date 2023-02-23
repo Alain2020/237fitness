@@ -2,10 +2,9 @@
 
 The brief was to develop a static front end project  using HTML , CSS and JavaScript programming language. This website is created for educational purposes.
 
-The website is showcase to all that are intersted in information. 
+The website is a showcase to all that are intersted in Turning Fat into a FIT!(Fitness). 
 
-This is a private website whereby I inform the community about all latest news and updates on government projects in the country. 
-I am are here to promote other companies advertise their products and also to bring direct updates from Cameroon for example; community projects, seminars and so on. In addition we help individuals and companies how to go about their taxes declarations.
+This is a private website whereby We’re absolutely certain that our highly qualified team are the best personal trainers in the Cameroon – and they’ll work with you individually in your own personal training pod – giving you private access to all the space and equipment you’ll need to achieve amazing results..
 
 <h3>The business goals of this website are:</h3>
 
@@ -40,6 +39,10 @@ The project used GitHub to host my code that was created and pushed from GitPod.
 
 <h3>Google Fonts</h3>
 Google Fonts was used to style the website fonts.
+
+<h3>AOS - animations</h3>
+
+Animate On Scroll (AOS) library allows you to animate elements as you scroll down and up. If you scroll back to top, elements will animate to it's previous state and are ready to animate again if you scroll down.
 
 <h3>Boxicons</h3>
 I used the boxicons toolkit in the narbar section, team section, classes section, contact section and footer links to define elements by a visual means.
