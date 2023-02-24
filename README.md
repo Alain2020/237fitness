@@ -2,13 +2,13 @@
 
 The brief was to develop a static front end project  using HTML , CSS and JavaScript programming language. This website is created for educational purposes.
 
-The website is a showcase to all that are intersted in Turning Fat into a FIT!(Fitness). 
+The website is a showcase all those who are interested in Turning Fat into a FIT!(Fitness). 
 
 This is a private website whereby We’re absolutely certain that our highly qualified team are the best personal trainers in the Cameroon – and they’ll work with you individually in your own personal training pod – giving you private access to all the space and equipment you’ll need to achieve amazing results..
 
 <h3>The business goals of this website are:</h3>
 
-It to give the users the body they want, To be physically fit,
+It is to give the users the body they want, To be physically fit,
  Making fitness fun,Exercise until the body obeys. and more
 
 <h3>The customer goals of this website are:</h3>
