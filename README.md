@@ -2,14 +2,16 @@
 
 The brief was to develop a static front end project  using HTML , CSS and JavaScript programming language. This website is created for educational purposes.
 
-The website is a showcase all those who are interested in Turning Fat into a FIT!(Fitness). 
+The website is a showcase to all those who are interested in Turning Fat into a FIT!(Fitness). 
 
-This is a private website whereby We’re absolutely certain that our highly qualified team are the best personal trainers in the Cameroon – and they’ll work with you individually in your own personal training pod – giving you private access to all the space and equipment you’ll need to achieve amazing results..
+This is a private website whereby we’re absolutely certain that our highly qualified team are the best personal trainers in Cameroon – and they’ll work with you individually in your own personal training pod – giving you private access to all the space and equipment you’ll need to achieve amazing results..
 
 <h3>The business goals of this website are:</h3>
 
-It is to give the users the body they want, To be physically fit,
- Making fitness fun,Exercise until the body obeys. and more
+It is to give the users the body they want, 
+To be physically fit,
+Making fitness fun,
+Exercise until the body obeys and more
 
 <h3>The customer goals of this website are:</h3>
 
@@ -23,11 +25,11 @@ and we know that eating habits have a huge impact on how quickly
 
 <h3>These users are looking for:</h3>
 
-Is a Fitness Training Studio For the people that want to Turn Fat into a FIT!.
+A Fitness Training Studio For the people that want to Turn Fat into a FIT!.
 
 <h3>Technologies Used:</h3>
 
-In the construction of this project I have utilised the following languages, frameworks, libraries and tools:
+In the construction of this project, I have utilised the following languages, frameworks, libraries and tools:
 
 HTML5, CSS and JavaScript programming languages.
 
@@ -45,6 +47,6 @@ Google Fonts was used to style the website fonts.
 Animate On Scroll (AOS) library allows you to animate elements as you scroll down and up. If you scroll back to top, elements will animate to it's previous state and are ready to animate again if you scroll down.
 
 <h3>Boxicons</h3>
-I used the boxicons toolkit in the narbar section, team section, classes section, contact section and footer links to define elements by a visual means.
+I used the boxicons toolkit in the navbar section, team section, classes section, contact section and footer links to define elements by a visual means.
 
 Features Left to Implement:
