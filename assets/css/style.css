@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -47,8 +46,7 @@ html {
     color: #fff;
 }
 
-#item li a:hover,
-#item .icon i:hover {
+#item li a:hover, #item .icon i:hover{
     color: #ff5733;
     cursor: pointer;
 }
@@ -66,7 +64,7 @@ html {
     display: none;
 }
 
-.back {
+.back{
     background-image: url(../images/fitness31.jpg);
     width: 100%;
     height: 100vh;
@@ -101,16 +99,16 @@ html {
 }
 
 .main .btn {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .main .btn a {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
 
 .main .btn a.simple {
-    color: #fff;
+    color: #fff;  
     font-weight: 500;
     padding: 0.9rem 1.6rem;
 }
@@ -120,7 +118,7 @@ html {
 }
 
 .main .btn a.border {
-    color: #ff5733;
+    color: #ff5733;  
     border: 1px solid #ff5733;
     font-weight: 500;
     padding: 0.9rem 1.6rem;
@@ -142,9 +140,7 @@ html {
     background: #171819;
 }
 
-.details h3,
-.details h6,
-.details h5 {
+.details h3,h6,h5 {
     color: #fff;
 }
 
@@ -155,21 +151,18 @@ html {
     justify-content: flex-start;
 }
 
-.details .one h3 {
-    fontApologies for the cutoff in the previous response. Here's the continuation of the corrected CSS code:
-
-```css
+.details .one h3{
     font-size: 2.5rem;
     padding-bottom: 1.1rem;
 }
 
-.details .one h6 {
+.details .one h6{
     font-size: 1.3rem;
     font-weight: 400;
     padding-bottom: 1.2rem;
 }
 
-.details .one p {
+.details .one p{
     color: #666262;
     font-size: 1.2rem;
     padding-bottom: 3rem;
@@ -188,6 +181,7 @@ html {
     background: #fff;
     color: #f13a11;
 }
+
 
 .details .two {
     width: 45%;
@@ -247,15 +241,26 @@ html {
     box-sizing: border-box;
     background: #fff;
     box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.037),
-        8.7px 8.7px 6.9px rgba(0, 0, 0, 0.053),
-        17.7px 17.7px 14.2px rgba(0, 0, 0, 0.067),
-        36.5px 36.5px 29.2px rgba(0, 0, 0, 0.083),
-        100px 100px 80px rgba(0, 0, 0, 0.12);
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.053),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.067),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.083),
+    100px 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .trainer .people .team1 .img img {
     width: 100%;
     object-fit: cover;
+}
+
+.trainer .people .team1 .name, .trainer .people .team1 .pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer .people .team1 .name {
+    padding: 5px 20px 0 20px;
 }
 
 .trainer .people .team1 .teamDetails {
@@ -265,24 +270,12 @@ html {
     padding-bottom: 10px;
 }
 
-.trainer .people .team1 .name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    padding: 5px 20px 0 20px;
-}
-
-.trainer .people .team1 .teamDetails .name h4 {
+.trainer .people .team1 .name h4 {
     color: #212529;
     font-size: 1.5rem;
 }
 
-.trainer .people .teamI apologize once again for the cutoff in the previous response. Here's the continuation of the corrected CSS code:
-
-```css
-1 .name i,
-.trainer .people .team1 .pro i {
+.trainer .people .team1 .name i, .trainer .people .team1 .pro i{
     font-size: 1.3rem;
     font-weight: bolder;
     cursor: pointer;
@@ -326,17 +319,16 @@ html {
     justify-content: space-between;
     align-items: center;
 }
-
 .class .classMenu .team1 {
     width: 32%;
     height: auto;
     box-sizing: border-box;
     background: #fff;
     box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.037),
-        8.7px 8.7px 6.9px rgba(0, 0, 0, 0.053),
-        17.7px 17.7px 14.2px rgba(0, 0, 0, 0.067),
-        36.5px 36.5px 29.2px rgba(0, 0, 0, 0.083),
-        100px 100px 80px rgba(0, 0, 0, 0.12);
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.053),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.067),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.083),
+    100px 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .class .classMenu .team1 .img img {
@@ -356,52 +348,50 @@ html {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    padding: 5px 30px 0 30px;
 }
 
-.class .classMenu .team1 .teamDetails .nameDetails {
-    flex: 1;
-}
-
-.class .classMenu .team1 .teamDetails .nameDetails h4 {
+.class .classMenu .team1 .teamDetails .name .nameDetails h4 {
     color: #212529;
     font-size: 1.7rem;
-    margin-bottom: 6px;
 }
 
-.class .classMenu .team1 .teamDetails .nameDetails p {
-    color: #7f8c8d;
-    font-size: 0.9rem;
-    margin-bottom: 0;
-}
-
-.class .classMenu .team1 .teamDetails .num {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 1;
-}
-
-.class .classMenu .team1 .teamDetails .num h5 {
+.class .classMenu .team1 .teamDetails .name .nameDetails p {
     color: #212529;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
-.class .classMenu .team1 .pro {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-    color: #7f8c8d;
+.class .classMenu .team1 .teamDetails .name .nameDetails p span {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.class .classMenu .team1 .teamDetails .name .num h5 {
+    font-size: 1.1rem;
+    background: #f13a11;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    padding-right: 3rem;
+    border-radius: 50%;
+}
+
+.class .classMenu .team1 .pro{
+    padding: 15px 30px 30px 30px;
+}
+
+.class .classMenu .team1 .pro p {
+    font-size: 1.1rem;
+    color: #666262;
 }
 
 .contact {
-Apologies for the cutoff in the previous response. Here's the continuation of the corrected CSS code:
-
-```css
+    padding: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 8rem 15rem;
-    background: #f9f9f9;
+
 }
 
 .contact .form {
@@ -409,63 +399,475 @@ Apologies for the cutoff in the previous response. Here's the continuation of th
 }
 
 .contact .form h2 {
-    font-size: 2.5rem;
-    color: #222;
-    margin-bottom: 1.8rem;
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .contact .form .submit {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.contact .form .submit input,
-.contact .form .submit textarea {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
+.contact .form .submit input, .contact .form .submit textarea {
     width: 100%;
-    font-size: 1rem;
-    border: 1px solid #7f8c8d;
-    border-radius: 3px;
+    padding: 15px;
+    border: 1px solid #95a5a6;
+    outline: none;
+    margin: 13px 0;
+}
+
+.contact .form .submit input:focus, .contact .form .submit textarea:focus{
+    border: 1px solid #111;
+}
+
+.contact .form .submit input::placeholder{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.contact .form .submit textarea::placeholder{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    height: 80%;
 }
 
 .contact .form .submit a {
-    color: #fff;
-    background: #f13a11;
-    padding: 1rem 0;
+    width: 100%;
+    padding: 15px 0;
     text-decoration: none;
-    text-transform: uppercase;
+    background: #111;
+    color: #fff;
     text-align: center;
+    font-size: 1.1rem;
+    margin: 13 0;
 }
-
-.contact .form .submit a:hover {
-    background: #fff;
-    color: #f13a11;
-}
-
 .contact .map {
     width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.contact .map h2 {
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 30px;
+    width: 100%;
 }
 
-.contact .map h2 {
-    font-size: 2.5rem;
-    color: #222;
-    margin-bottom: 1.8rem;
+.contact .map p i {
+    color: red;
+    padding-right: 4px;
 }
 
 .contact .map p {
-    color: #7f8c8d;
     font-size: 1.1rem;
-    margin-bottom: 1.5rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .contact .map iframe {
     width: 100%;
-    height: 300px;
-    border: none;
-    border-radius: 3px;
+}
+
+.footer {
+    border-top: 1px solid #ecf0f1;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #7f8c8d;
+    justify-content: flex-start;
+}
+
+.footer p i {
+    color: red;
+    padding: 5px ;
+}
+
+/*----Media Query----*/
+
+@media screen and (max-width: 1042px) {
+    
+    .nav {
+        padding: 1rem 4.5rem;
+    }
+    .nav h2 {
+        font-size: 1.4rem;
+    }
+    #item li {
+        padding-right: 30px;
+    }
+    #item li a {
+        font-size: 0.9rem;
+    }  
+    #item .icon i {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .nav {
+        padding: 1rem 3rem;
+    }
+    .nav h2 {
+        font-size: 1.6rem;
+    }
+    #item {
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background: rgba(0,0,0,0.8);
+        z-index: 100000;
+        margin-top: 4.2rem;
+        transition: 0.5s;
+    }
+    #item li {
+        padding-right: 0;
+        padding: 4px 0;
+    }
+    #item li a {
+        font-size: 1.2rem;
+    }
+    #item .icon{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } 
+    #item .icon i {
+       padding: 0 15px 0 15px;
+    }
+    
+    #bar {
+        display: initial;
+        cursor: pointer;
+    }
+
+    .main p {
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    .main h2 {
+        color: #fff;
+        font-size: 2.5rem;
+    }
+    .main .btn {
+      margin-top: 1.5rem;
+    }
+    .main .btn a {
+        font-size: 0.9rem;
+    }
+    .main .btn a.simple {
+        padding: 0.7rem 1.4rem;
+    }
+    .main .btn a.border {
+        padding: 0.7rem 1.4rem;
+    }
+    .details {
+        padding: 6rem 7rem;
+    }
+    .details .one {
+        width: 50%;
+    }
+    .details .one h3{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .details .one p{
+        font-size: 1.1rem;
+        padding-bottom: 2.2rem;
+    }
+    .details .one a {
+        font-size: 0.9rem;
+    }
+    .details .two {
+        padding-left: 3.5rem;
+    }
+    .details .two h3 {
+        font-size: 2rem;
+    }
+    .details .two h5 {
+        font-size: 1rem;
+    }
+    
+    .details .two p {
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    .trainer {
+        padding: 6rem 7rem;
+    }
+    .trainer .about h2 {
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+    .trainer .about p {
+        font-size: 1rem;
+    } 
+    .trainer .people .team1 {
+        width: 48%;
+    }
+    .trainer .people .team1 .name {
+        padding: 5px 15px 0 15px;
+    }    
+    .trainer .people .team1 .name h4 {
+        color: #212529;
+        font-size: 1.1rem;
+    }
+    .trainer .people .team1 .name i, .trainer .people .team1 .pro i{
+        font-size: 1.1rem;
+    }
+    
+    .trainer .people .team1 .pro {
+        padding: 0 15px 5px 15px;
+    }
+    
+    .class {
+        padding: 6rem;
+    }
+    .class .paragraph {
+        font-size: 1.1rem;
+        padding: 4px;
+    }
+    .class .h2 {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    .class .classMenu .team1 .teamDetails{
+        padding-bottom: 7px;
+    }    
+    .class .classMenu .team1 .teamDetails .name {
+        padding: 5px 15px 0 15px;
+    }
+    .class .classMenu .team1 .teamDetails .name .nameDetails h4 {
+        font-size: 1.2rem;
+    }
+    .class .classMenu .team1 .teamDetails .name .nameDetails p {
+        font-size: 1rem;
+    }
+    .class .classMenu .team1 .teamDetails .name .nameDetails p span {
+        font-size: 1rem;
+    }
+    .class .classMenu .team1 .teamDetails .name .num h5 {
+        font-size: 0.8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .class .classMenu .team1 .pro{
+        padding: 15px 15px 30px 15px;
+    }
+    .class .classMenu .team1 .pro p {
+        font-size: 1rem;
+    }
+
+    .contact {
+        padding: 6rem;
+    }
+    .contact .form h2 {
+        font-size: 2rem;
+        padding-bottom: 7px;
+    }
+    .contact .form .submit input, .contact .form .submit textarea {
+        padding: 12px;
+        margin: 10px 0;
+    }
+    .contact .form .submit input::placeholder{
+        font-size: 1rem;
+    }
+    .contact .form .submit textarea::placeholder{
+        font-size: 1rem;
+    }
+    .contact .form .submit a {
+        padding: 13px 0;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+    .contact .map h2 {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .contact .map p {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    .footer {
+        padding: 6rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .nav h2 {
+        font-size: 1.5rem;
+    }
+    .back {
+        background-position: center;
+    }
+    
+    .main p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .main h2 {
+        color: #fff;
+        font-size: 2.1rem;
+    }
+    .main .btn {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .main .btn a.simple {
+        padding: 0.7rem 1.4rem;
+        margin-bottom: 7px;
+    }
+    .main .btn a.border {
+        padding: 0.7rem 1.4rem;
+    }
+    .details {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details .one {
+        width: 70%;
+    }
+
+    .details .one a {
+        font-size: 1rem;
+    }
+    .details .two {
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid #666262;
+        width: 70%;
+        margin-top: 1.7rem;
+        padding-top: 1.7rem;    
+    }
+    .trainer {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trainer .about {
+        width: 70%;
+        margin-bottom: 1.7rem;
+    }
+    .trainer .people {
+        width: 70%;
+    }
+
+    .class {
+        padding: 6rem;
+    }
+    .class .classMenu {
+       flex-direction: column;
+       justify-content: center;
+    }
+    .class .classMenu .team1 {
+        width: 65%;
+        margin-bottom: 20px;
+    }
+    .contact {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .form{
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+    .contact .form h2 {
+        font-size: 2.5rem;
+    }
+    .contact .map {
+        width: 60%;
+    }
+    .footer {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 496px) {
+    
+    .main p {
+        margin-bottom: 0.8rem;
+    }
+    .main h2 {
+        font-size: 1.8rem;
+    }
+    .main .btn {
+      margin-top: 0.7rem;
+    }
+    .details {
+        padding: 4rem 1rem;
+    }
+    .details .one {
+        width: 100%;
+    }
+    .details .two {
+        width: 100%;  
+    }
+    .trainer {
+        padding: 4rem 1rem;
+    }
+    .trainer .about {
+        width: 100%;
+    }
+    .trainer .people {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trainer .people .tram1 {
+        width: 100%;
+        margin-bottom: 20%;
+    } 
+    .class {
+        padding: 4rem 1rem;
+    }
+    .contact {
+        padding: 4rem 1rem;
+    }
+    .contact .form{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .contact .map {
+        width: 100%;
+    }
+    .footer {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
